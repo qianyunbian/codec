@@ -28,7 +28,7 @@ void pop(NODE front,NODE rear){
        return ;
     }
     NODE *temp=front;//操作或标志
-    front->next=float;
+    front->next=front;
     free(temp);
     return;
 }
